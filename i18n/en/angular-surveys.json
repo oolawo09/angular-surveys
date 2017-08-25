@@ -91,8 +91,10 @@
                 },
                 "url":{
                     "name": "URL"
+                }, 
+                "file":{ 
+                    "name": "FILE"
                 }
-
 
             },
             "text": "Question text",
