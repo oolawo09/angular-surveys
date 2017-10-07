@@ -154,10 +154,13 @@
         </div>
         <div ng-switch-when="file" class="form-inline">
             <md-input-container>
-                <input class="form-control" multiple type="file" fileread="ctrl.questionResponse.answer" ng-required="ctrl.question.required" ng-readonly="ctrl.readOnly">
+                <input class="form-control" type="file" accept=".png, .tif, .jpg, .jpeg, .pdf" fileread="ctrl.questionResponse.answer" ng-required="ctrl.question.required" ng-readonly="ctrl.readOnly">
             </md-input-container>
         </div>
-
-        {{ctrl.questionResponse}}
+        <div ng-switch-when="phone" class="form-inline">
+            <md-input-container>
+                <input class="form-control" type="tel">
+            </md-input-container>
+        </div>
     </div>
 </div>

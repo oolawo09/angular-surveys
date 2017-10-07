@@ -112,6 +112,11 @@
                             <input class="form-control" type="file" disabled>
                         </md-input-container>
                     </div>
+                    <div ng-switch-when="phone" class="form-inline">
+                        <md-input-container>
+                            <input class="form-control" type="tel">
+                        </md-input-container>
+                    </div>
                 </div>
                 <div class="col-sm-12" ng-if="ctrl.question.type=='grid'">
                     <mw-question-grid-builder question="ctrl.question" read-only="ctrl.readOnly"></mw-question-grid-builder>

@@ -1,12 +1,15 @@
 {
-    "mwForm":{
-        "form":{
+    "mwForm":
+    {
+        "form":
+        {
             "name": "Form name",
             "name.placeholder": "Form title",
             "description": "Description"
         },
-        "buttons":{
-            "addPage":"Add page",
+        "buttons":
+        {
+            "addPage": "Add page",
             "moveDown": "Move down",
             "moveUp": "Move up",
             "removePage": "Remove page",
@@ -23,103 +26,135 @@
             "clone": "Clone",
             "view": "View"
         },
-        "page":{
-            "tab":{
-                "heading":"Page {{page}} of {{allPages}}"
+        "page":
+        {
+            "tab":
+            {
+                "heading": "Page {{page}} of {{allPages}}"
             },
-            "elements":{
+            "elements":
+            {
                 "empty": "Empty page"
             },
             "pageWithNameCheckbox": "named",
             "name": "Page name"
         },
-        "pageFlow":{
-            "afterPage":"After page {{page}}:",
+        "pageFlow":
+        {
+            "afterPage": "After page {{page}}:",
             "afterQuestionAnswer": "Go to page based on answer",
             "goToPage": "Go to page {{page.number}}",
             "goToNextPage": "Continue to next page",
             "submitForm": "Submit form"
         },
-        "elements":{
-            "question":"Question",
-            "image":"Image",
+        "elements":
+        {
+            "question": "Question",
+            "image": "Image",
             "paragraph": "Paragraph"
         },
-        "question":{
-            "types":{
-                "text":{
+        "question":
+        {
+            "types":
+            {
+                "text":
+                {
                     "name": "Short text"
                 },
-                "textarea":{
+                "textarea":
+                {
                     "name": "Long text"
                 },
-                "radio":{
+                "radio":
+                {
                     "name": "Radio"
                 },
-                "select":{
+                "select":
+                {
                     "name": "Select"
                 },
-                "checkbox":{
+                "checkbox":
+                {
                     "name": "Checkboxes"
                 },
-                "grid":{
+                "grid":
+                {
                     "name": "Grid"
                 },
-                "priority":{
+                "priority":
+                {
                     "name": "Priority"
                 },
-                "division":{
+                "division":
+                {
                     "name": "Division"
                 },
-                "number":{
+                "number":
+                {
                     "name": "Number"
                 },
-                "date":{
+                "date":
+                {
                     "name": "Date"
                 },
-                "datetime":{
+                "datetime":
+                {
                     "name": "Datetime"
                 },
-                "time":{
+                "time":
+                {
                     "name": "Time"
                 },
-                "email":{
+                "email":
+                {
                     "name": "Email"
                 },
-                "range":{
+                "range":
+                {
                     "name": "Range"
                 },
-                "url":{
+                "url":
+                {
                     "name": "URL"
-                }, 
-                "file":{ 
+                },
+                "file":
+                {
                     "name": "FILE"
+                },
+                "phone":
+                {
+                    "name": "Phone"
                 }
 
             },
             "text": "Question text",
             "type": "Question type",
             "required": "Required",
-            "preview":{
-                "text":"Short answer text",
-                "textarea":"Long answer text",
+            "preview":
+            {
+                "text": "Short answer text",
+                "textarea": "Long answer text",
                 "otherAnswer": "Other"
             },
-            "division":{
+            "division":
+            {
                 "quantity": "Quantity",
                 "unit": "Unit label",
                 "assignedSumLabel": "Assigned",
-                "fromRequiredLabel":"from required"
+                "fromRequiredLabel": "from required"
 
             },
-            "priority":{
+            "priority":
+            {
                 "sorted": "Sorted",
                 "available": "Available",
                 "clickToAddItem": "Click to add item"
             },
-            "grid":{
+            "grid":
+            {
                 "cellInputType": "Cell input type",
-                "cellInputTypes":{
+                "cellInputTypes":
+                {
                     "radio": "Radio",
                     "checkbox": "Checkbox",
                     "text": "Text",
@@ -132,31 +167,37 @@
                 "columnLabel": "Column {{col}}",
                 "clickToAddColumn": "Click to add column"
             },
-            "range":{
+            "range":
+            {
                 "from": "Range from",
                 "to": "to"
             },
-            "number": {
+            "number":
+            {
                 "min": "Min",
                 "max": "Max"
             },
             "orLabel": "or ",
             "otherLabel": "Other: ",
             "userAnswer": "User answer",
-            "buttons":{
-                "addOption":"Click to add option",
-                "addOther":"Add 'Other'"
+            "buttons":
+            {
+                "addOption": "Click to add option",
+                "addOther": "Add 'Other'"
             }
 
         },
-        "image":{
+        "image":
+        {
             "selectImageButton": "Select image",
             "caption": "Image caption"
         },
-        "paragraph":{
+        "paragraph":
+        {
             "placeholder": "Enter paragraph text"
         },
-        "confirmationPage":{
+        "confirmationPage":
+        {
             "title": "Confirmation page",
             "customMessage": "Custom confirmation message",
             "defaultMessage": "Your response has been recorded",

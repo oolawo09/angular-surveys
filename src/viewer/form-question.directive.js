@@ -138,16 +138,21 @@ angular.module('mwFormViewer').factory("FormQuestionId", function() {
                 var ctrl = scope.ctrl;
                 ctrl.print = mwFormViewer.print;
 
-                //file uploads 
+                //file uploads
+                //
+
                 ele.bind("change", function(changeEvent) {
                     var reader = new FileReader();
+                    var fileName = changeEvent.target.files[0];
+
                     reader.onload = function(loadEvent) {
                         scope.$apply(function() {
                             ctrl.questionResponse.answer = loadEvent.target.result;
                         });
                     }
+
                     reader.readAsDataURL(changeEvent.target.files[0]);
-                })
+                });
             }
         };
     });
